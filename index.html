@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Titus Grothaus" />
+<meta name="original-source" content="https://github.com/Rabenauge/rastereditor" />
+<title>Rabenauge c64 Raster-Editor V.0.0.1</title>
+<!-- ########### own classes ############## --->
+<!-- static Vars --->
+<script src="scripts/constants.js"></script>
+<!-- helper functions/objects -->
+<script src="scripts/utils.js"></script>    
+
+<!-- helper objects -->
+<script src="scripts/cursor.js"></script>        
+    
+<!-- ####### main Stuff ######## -->
+<script src="scripts/main.js"></script>
+    
+<!-- own classes  end -->
+<link rel="stylesheet" href="styles/rasterbareditor.css">
+<script>
+</script>
+</head>
+
+<body onload="init()">
+    <div id="area">
+    </div>
+    <div class="info">
+        <p>Select color with:1,2,3,4,q,w,e,r,a,s,d,f,y,x,c,v</p>
+        <p>zoom up: + or down: - </p>
+        <p>Cursor Up and Cursor Down to move </p>
+        <p>SPACE to draw color </p>
+        <p> o to save</p>
+        <p>active color:</p>
+        <span id="selected-color-box"></span>
+    </div>
+</body>
+</html>

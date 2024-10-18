@@ -1,0 +1,34 @@
+html{
+    background-image: linear-gradient(to bottom, #ffffff 0%, #1e5799 50%);
+    min-height: 100%;
+    height:100%;
+}
+body{
+    font-size: 1em; 
+}
+#area{
+    float: left;
+    width:auto;
+    margin: 0 1em 0 0 
+}
+.info{
+    display: inline-block;2
+}
+.info p{
+    padding: 0;
+    margin: 0;
+}
+#selected-color-box{
+    border: 2px solid #000000;
+    display: inline-block;
+    width : 3em;
+    height: 2em;
+    min-width : 3em
+    min-height: 2em;
+    max-width : 3em
+    max-height: 2em;
+}
+
+input#txtstorage{
+    display:none;
+}
